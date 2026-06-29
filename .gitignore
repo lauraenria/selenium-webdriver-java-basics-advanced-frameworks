@@ -1,0 +1,157 @@
+# =========================================================
+# Java / Compiled files
+# =========================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# =========================================================
+# Maven
+# =========================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# NON ignorare pom.xml
+# NON ignorare src/
+
+# =========================================================
+# Gradle - nel caso in futuro venga usato
+# =========================================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================================================
+# Eclipse
+# =========================================================
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+.apt_generated/
+.apt_generated_test/
+.metadata/
+.metadata/**
+.recommenders/
+.externalToolBuilders/
+.springBeans
+.sts4-cache/
+
+# Eclipse launch/debug configurations
+*.launch
+
+# =========================================================
+# VS Code
+# =========================================================
+.vscode/
+
+# =========================================================
+# IntelliJ IDEA
+# =========================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================================================
+# Selenium / WebDriver
+# =========================================================
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+msedgedriver
+msedgedriver.exe
+
+# Selenium screenshots / videos / traces
+screenshots/
+failed-tests-screenshots/
+videos/
+traces/
+test-results/
+
+# =========================================================
+# TestNG / Maven Surefire / Reports
+# =========================================================
+test-output/
+surefire-reports/
+failsafe-reports/
+reports/
+extent-reports/
+extentReports/
+allure-results/
+allure-report/
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+logs/
+log/
+debug.log
+
+# =========================================================
+# Download / Upload folders used during automation tests
+# =========================================================
+downloads/
+uploads/
+temp/
+tmp/
+
+# =========================================================
+# Excel / test data temporary files
+# =========================================================
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# =========================================================
+# Environment / local configuration
+# =========================================================
+.env
+*.env
+.env.*
+config-local.properties
+local.properties
+application-local.properties
+secrets.properties
+
+# =========================================================
+# OS generated files
+# =========================================================
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================================================
+# Backup files
+# =========================================================
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# =========================================================
+# Node files - solo se in futuro usi tool JS nel progetto
+# =========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
