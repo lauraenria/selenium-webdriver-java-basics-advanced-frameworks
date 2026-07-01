@@ -165,7 +165,7 @@ git --version
 ### 3. Install Java JDK
 
 ```bash
-sudo apt install openjdk-21-jdk -y
+sudo apt install openjdk-25-jdk -y
 ```
 
 Check installation:
@@ -238,6 +238,32 @@ File → Import → Maven → Existing Maven Projects
 Then select the project folder that contains the `pom.xml` file.
 
 Do not import the entire Eclipse workspace folder.
+
+
+
+## How to Run the Project (Prerequisites)
+
+Before getting started, ensure that `JAVA_HOME` is correctly configured on your system.
+
+### Configuration and Downloading Dependencies in Linux
+
+To download all the necessary dependencies using Maven, open your terminal in the root directory of the project and run the following commands:
+
+1. Navigate to the folder containing the `pom.xml` file:
+   ```bash
+   cd introduction
+   mvn clean install
+   ```
+
+   ### Windows Instructions
+
+If you are on Windows, open your Command Prompt (cmd) or PowerShell in the project root folder and run:
+
+1. Navigate to the folder containing the `pom.xml` file:
+   ```cmd
+   cd introduction
+   mvn clean install
+   ```
 
 
 ## Course Goal
