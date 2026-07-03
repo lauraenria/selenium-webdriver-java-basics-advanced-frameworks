@@ -1,4 +1,4 @@
-package Section10;
+package test.Section10;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

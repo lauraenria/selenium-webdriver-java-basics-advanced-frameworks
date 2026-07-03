@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 public class MethodsDemo {
 
   public static void main(String[] args) {

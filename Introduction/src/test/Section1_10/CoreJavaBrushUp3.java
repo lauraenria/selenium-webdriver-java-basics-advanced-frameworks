@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 public class CoreJavaBrushUp3 {
     // Lesson 27
     public static void main(String[] args) {
@@ -33,11 +35,9 @@ public class CoreJavaBrushUp3 {
 
         // Reverse string character by character
         // Start from last index and move backwards
-        for(int i = s.length()-1; i >= 0; i--)
-        {
+        for (int i = s.length() - 1; i >= 0; i--) {
             // charAt(i) returns character at specific index
             System.out.println(s.charAt(i));
         }
     }
 }
-

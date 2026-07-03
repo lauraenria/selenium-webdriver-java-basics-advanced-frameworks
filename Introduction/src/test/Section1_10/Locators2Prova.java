@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -20,7 +22,8 @@ public class Locators2Prova {
 
         String name = "rahul";
 
-        // System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+        // System.setProperty("webdriver.chrome.driver",
+        // "/Users/rahulshetty/Documents/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
@@ -91,5 +94,5 @@ public class Locators2Prova {
         // 1st index - to Login.
 
     }
-    
+
 }

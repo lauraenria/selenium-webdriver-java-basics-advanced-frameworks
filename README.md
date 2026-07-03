@@ -265,6 +265,14 @@ If you are on Windows, open your Command Prompt (cmd) or PowerShell in the proje
    mvn clean install
    ```
 
+## Prerequisites & VS Code Extensions
+
+If you are using **Visual Studio Code**, ensure you have the following extensions installed to properly run and manage the project:
+
+* **Extension Pack for Java** (by Microsoft) – *Do **NOT** use "Code Runner" as it causes execution conflicts with Maven structures.*
+
+* **Maven for Java** (by Microsoft) – Essential for managing dependencies, compiling, and running `pom.xml` tasks directly from the IDE.
+
 
 ## Course Goal
 

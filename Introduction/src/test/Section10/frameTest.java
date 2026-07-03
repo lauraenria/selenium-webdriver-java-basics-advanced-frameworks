@@ -1,4 +1,4 @@
-package Section10;
+package test.Section10;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,17 +17,17 @@ public class frameTest {
         driver.manage().window().maximize();
 
         // Switch to the first frame by index
-        // driver.switchTo().frame(1); 
-        
+        // driver.switchTo().frame(1);
+
         // Counts the number of iframes present
         System.out.println("iframe count: " + driver.findElements(By.tagName("iframe")).size());
 
         // Switch to the frame by element
         // driver.switchTo().frame(driver.findElement(By.cssSelector("iframe[class='demo-frame']")));
-        
+
         // driver.findElement(By.id("draggable")).click();
 
-         // Enter the frame
+        // Enter the frame
         driver.switchTo().frame(
                 driver.findElement(
                         By.cssSelector("iframe.demo-frame")));
@@ -42,7 +42,6 @@ public class frameTest {
                 .build()
                 .perform();
 
-        
         // Back to the home page
         driver.switchTo().defaultContent();
 

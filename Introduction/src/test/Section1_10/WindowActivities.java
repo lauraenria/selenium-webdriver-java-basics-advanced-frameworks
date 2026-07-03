@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,7 +11,7 @@ public class WindowActivities {
          * System.setProperty("webdriver.chrome.driver",
          * "/Users/rahulshetty/Documents/chromedriver");
          */
-        
+
         WebDriver driver = new ChromeDriver();
 
         // Maximize browser window

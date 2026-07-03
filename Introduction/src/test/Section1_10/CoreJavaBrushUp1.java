@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 public class CoreJavaBrushUp1 {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class CoreJavaBrushUp1 {
 
         System.out.println(myNum + " is the value stored in the myNum variable");
         System.out.println(website);
-        System.out.println(letter + " " + dec + " "+ myCard);
+        System.out.println(letter + " " + dec + " " + myCard);
 
         // Arrays - Dichiarazione con allocazione fissa
         int[] arr = new int[5];

@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -16,7 +18,7 @@ public class Locators3 {
 
     // Sibling - Child to parent traverse
 
-    //header/div/button[1]/following-sibling::button[1]
+    // header/div/button[1]/following-sibling::button[1]
 
     driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 

@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import java.util.Iterator;
 import java.util.Set;
 
@@ -13,7 +15,7 @@ public class WindowHandles {
          * System.setProperty("webdriver.chrome.driver",
          * "/Users/rahulshetty/Downloads/chromedriver");
          */
-        
+
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 

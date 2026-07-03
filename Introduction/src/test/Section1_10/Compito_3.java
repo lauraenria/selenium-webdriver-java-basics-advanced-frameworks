@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
@@ -13,7 +15,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 
 public class Compito_3 {
 
@@ -108,7 +109,7 @@ public class Compito_3 {
         driver.findElement(By.cssSelector(checkoutButton)).click();
 
         // 25. Wait until the checkout/cart page is loaded
-        //wait.until(ExpectedConditions.urlContains("shop"));
+        // wait.until(ExpectedConditions.urlContains("shop"));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("tbody tr")));
 
         // 26. Verify that the checkout page contains the selected products

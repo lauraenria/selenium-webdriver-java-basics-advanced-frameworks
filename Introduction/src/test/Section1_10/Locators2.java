@@ -1,3 +1,5 @@
+package test.Section1_10;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
